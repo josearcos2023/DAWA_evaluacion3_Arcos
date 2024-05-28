@@ -1,0 +1,18 @@
+<div class="container serviciosComponent">
+    <br><br>
+    <div class="section-title d-flex flex-column justify-content-center align-items-center">
+        <h2>Servicios</h2>
+        <p>Estamos listos para atenderte</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6" *ngFor="let servicio of servicios">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{servicio.titulo}}</h4>
+                    <p class="card-text">{{servicio.texto}}</p>
+                  </div>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>

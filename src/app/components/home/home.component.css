@@ -1,0 +1,30 @@
+.homeBackground {
+    background-image: url('/assets/images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; 
+    color: white; 
+    height: 80%;
+}
+
+/* .homeBackground::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+}
+
+.homeBackground .row {
+    position: relative; 
+    z-index: 1;
+    width: 100%;
+} */
+
+.textoHome {
+    flex-direction: column;
+}
